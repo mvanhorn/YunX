@@ -5,10 +5,10 @@ package com.yunx.app.data.network
  */
 object QuarkConstants {
 
-    /** 夸克 PC 客户端 User-Agent，所有请求必须携带 */
+    /** WebView 登录页使用的通用桌面浏览器 User-Agent */
     const val USER_AGENT =
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) " +
-    "Chrome/130.0.0.0 Safari/537.36 QuarkPC/6.0.8.649"
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) " +
+            "Chrome/130.0.0.0 Safari/537.36"
 
 
     /** WebView 登录页（PC 环境） */
